@@ -1,0 +1,21 @@
+{
+  "version": 3,
+  "categories": ["contact_solidity", "conservation", "permanence", "causal_ordering", "resource_reachability"],
+  "repair_cardinalities": [1, 2, 3, 4, 5, 6],
+  "boundary_levels": ["regular", "near"],
+  "radius": [0.07, 0.09],
+  "mass": [0.9, 1.1],
+  "speed": [0.7, 0.85],
+  "gap": [0.04, 0.08],
+  "force_limit": [0.3, 0.5],
+  "tolerance": 0.005,
+  "repair_budget": 4096,
+  "boundary_thresholds": {
+    "contact_solidity": 0.015,
+    "conservation": 0.015,
+    "causal_ordering": 0.04,
+    "resource_reachability": 0.015
+  },
+  "width": 448,
+  "height": 256
+}

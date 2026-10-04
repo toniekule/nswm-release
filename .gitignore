@@ -1,0 +1,15 @@
+# Local working notes are kept out of the tree.
+# scripts/package_release.py excludes them from the archive as well.
+docs/
+
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.runs/
+data/
+checkpoints/
+*.safetensors
+*.pt
+assets/
+.DS_Store

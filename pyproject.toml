@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "negative-space-wm"
+version = "0.1.0"
+description = "Minimal repair certificates, conservative verification, and shared Critic/Gate training"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+train = ["torch==2.10.0", "torchvision==0.25.0", "transformers==4.57.6", "accelerate>=1,<2", "Pillow>=10", "numpy>=1.26,<3", "safetensors>=0.4"]
+physics = ["mujoco>=3.2,<4", "numpy>=1.26", "Pillow>=10"]
+
+[project.scripts]
+nswm = "nswm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

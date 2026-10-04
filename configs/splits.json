@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "train": 0.8,
+  "dev": 0.1,
+  "ood": {
+    "geometry": {"radius_scale": 1.8, "spacing_scale": 1.8},
+    "dynamics": {"mass_scale": 2.0, "velocity_scale": 1.8, "spacing_scale": 1.8},
+    "appearance": {"tint": 80},
+    "composition": {"bodies": 3}
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "categories": ["contact_solidity", "conservation", "permanence", "causal_ordering", "resource_reachability"],
+  "radius": [0.10, 0.14],
+  "mass": [0.8, 1.2],
+  "velocity": [0.35, 0.55],
+  "spacing": [0.75, 0.95],
+  "width": 128,
+  "height": 96
+}
